@@ -5,6 +5,7 @@ Smart Spending Insights Based on Your Transactions
 AutoSave AI helps users build better saving habits by analyzing their income and expenses. It offers actionable suggestions using uploaded or manually entered transaction data.
 
 📸 Demo
+<img width="1916" height="960" alt="Screenshot 2025-07-14 195655" src="https://github.com/user-attachments/assets/d2f94567-2f29-445c-a435-b37dcc1ad659" />
 
 
 
@@ -48,22 +49,17 @@ Uvicorn
 📁 Project Structure
 
 autosave-ai-starter/
-│
 ├── backend/
-│   ├── __pycache__/         # Python cache
-│   ├── venv/                # Virtual environment for backend
 │   ├── app.py               # FastAPI backend logic
 │   └── requirements.txt     # Python dependencies
 │
 ├── frontend/
-│   ├── node_modules/        # Node dependencies
 │   ├── src/
 │   │   ├── App.jsx          # Main React component (UI logic)
 │   │   ├── index.css        # Global Tailwind CSS
 │   │   └── main.jsx         # Entry point for React
 │   ├── index.html           # HTML template
 │   ├── package.json         # Frontend dependencies and scripts
-│   ├── package-lock.json    # Version lock file
 │   ├── postcss.config.js    # PostCSS config
 │   ├── tailwind.config.js   # TailwindCSS config
 │   └── vite.config.js       # Vite configuration
@@ -72,7 +68,6 @@ autosave-ai-starter/
 │   ├── test.csv             # Sample CSV for testing
 │   └── transactions.csv     # Another example transaction CSV
 │
-├── venv/                    # (Optional) top-level Python venv
 └── README.md                # Project documentation
 
 🛠️ Setup Instructions
