@@ -47,27 +47,28 @@ Uvicorn
 
 
 📁 Project Structure
-autosave-ai-starter/
-├── backend/
-│   ├── app.py                # FastAPI backend logic
-│   ├── requirements.txt      # Python dependencies
-│
-├── frontend/
-│   ├── src/
-│   │   ├── App.jsx           # Main React component
-│   │   ├── index.css         # TailwindCSS styles
-│   │   └── main.jsx          # React entry point
-│   ├── index.html            # HTML template
-│   ├── package.json          # Frontend dependencies
-│   ├── postcss.config.js     # PostCSS config
-│   ├── tailwind.config.js    # TailwindCSS config
-│   └── vite.config.js        # Vite config
-│
-├── sample-data/
-│   ├── test.csv              # Sample test data
-│   └── transactions.csv      # Sample transaction data
-│
-├── README.md                 # Project documentation
+autosave-ai/
+├── 📂 backend/                  # Backend folder (FastAPI)
+│   ├── app.py                  # Main API logic
+│   └── requirements.txt        # Python dependencies
+
+├── 📂 frontend/                 # Frontend folder (React + Tailwind)
+│   ├── 📂 src/
+│   │   ├── App.jsx             # Main UI component
+│   │   ├── main.jsx            # Entry point for React app
+│   │   └── index.css           # Global CSS (Tailwind)
+│   ├── index.html              # HTML shell for Vite
+│   ├── package.json            # NPM scripts & dependencies
+│   ├── tailwind.config.js      # Tailwind configuration
+│   ├── postcss.config.js       # PostCSS configuration
+│   └── vite.config.js          # Vite bundler config
+
+├── 📂 sample-data/             # Example CSVs for testing
+│   ├── test.csv
+│   └── transactions.csv
+
+├── README.md                   # Project overview and setup guide
+
 
 🛠️ Setup Instructions
 
