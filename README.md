@@ -47,28 +47,27 @@ Uvicorn
 
 
 📁 Project Structure
-
 autosave-ai-starter/
 ├── backend/
-│   ├── app.py               # FastAPI backend logic
-│   └── requirements.txt     # Python dependencies
+│   ├── app.py                # FastAPI backend logic
+│   ├── requirements.txt      # Python dependencies
 │
 ├── frontend/
 │   ├── src/
-│   │   ├── App.jsx          # Main React component (UI logic)
-│   │   ├── index.css        # Global Tailwind CSS
-│   │   └── main.jsx         # Entry point for React
-│   ├── index.html           # HTML template
-│   ├── package.json         # Frontend dependencies and scripts
-│   ├── postcss.config.js    # PostCSS config
-│   ├── tailwind.config.js   # TailwindCSS config
-│   └── vite.config.js       # Vite configuration
+│   │   ├── App.jsx           # Main React component
+│   │   ├── index.css         # TailwindCSS styles
+│   │   └── main.jsx          # React entry point
+│   ├── index.html            # HTML template
+│   ├── package.json          # Frontend dependencies
+│   ├── postcss.config.js     # PostCSS config
+│   ├── tailwind.config.js    # TailwindCSS config
+│   └── vite.config.js        # Vite config
 │
 ├── sample-data/
-│   ├── test.csv             # Sample CSV for testing
-│   └── transactions.csv     # Another example transaction CSV
+│   ├── test.csv              # Sample test data
+│   └── transactions.csv      # Sample transaction data
 │
-└── README.md                # Project documentation
+├── README.md                 # Project documentation
 
 🛠️ Setup Instructions
 
