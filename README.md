@@ -48,11 +48,13 @@ Uvicorn
 
 📁 Project Structure
 autosave-ai/
+
 ├── 📂 backend/                  # Backend folder (FastAPI)
 │   ├── app.py                  # Main API logic
 │   └── requirements.txt        # Python dependencies
 
 ├── 📂 frontend/                 # Frontend folder (React + Tailwind)
+
 │   ├── 📂 src/
 │   │   ├── App.jsx             # Main UI component
 │   │   ├── main.jsx            # Entry point for React app
